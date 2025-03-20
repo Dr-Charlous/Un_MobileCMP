@@ -1,6 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -8,6 +5,6 @@ using UnityEngine.UI;
 public class Character : ScriptableObject
 {
     public string Name;
-    public Sprite Sprite;
+    //public Sprite Sprite;
     public Manager.Tags[] TagsObject;
 }

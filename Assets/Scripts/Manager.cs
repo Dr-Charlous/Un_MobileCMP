@@ -1,22 +1,20 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class Manager : MonoBehaviour
 {
-    public enum Tags
-    {
-        Yes,
-        No,
-        Maybe
-    }
-
+    #region Singleton
     public static Manager Instance;
 
     private void Awake()
     {
         Instance = this;
+    }
+    #endregion
+
+    public enum Tags
+    {
+        Tag1,
+        Tag2,
+        Tag3
     }
 }
